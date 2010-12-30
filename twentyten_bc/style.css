@@ -1,0 +1,203 @@
+/*
+Theme Name: Twenty Ten BoostCon
+Description: Twenty Ten theme for the BoostCon Site.  This couldn't 
+             be a child theme because it required a change to the header structure.
+Author: Ray Fix
+Template: twentyten_bc
+*/
+
+@import url("style_base.css");
+
+@import url("schedule_style.css");
+
+#site-title {
+  display: none;
+}
+
+#site-description {
+  display: none;
+}
+
+#branding {
+  width: 100%;
+}
+
+#logo {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+#logo img {
+  border: 0;
+}
+
+#logo_left {
+  float: left;
+}
+
+#logo_right {
+  float: right;
+  clear: right;
+}
+
+#site-title a {
+    display: none;
+}
+
+body {
+	background: #86aac5;
+}
+
+#access {
+	background: #f5f4ef;
+}
+
+#access a {
+	color:#32373b;
+}
+
+#access ul ul a {
+	background:#f5f4ef; /* custom */
+}
+
+#access li:hover > a,
+#access ul ul :hover > a {
+	color:#32373b;
+	background:#e2dfd2;
+}
+
+
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+	color: #000;
+	font-weight: bold;
+}
+
+/* the real hackery begins */
+
+body,
+input,
+textarea,
+.page-title span,
+.pingback a.url {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h3#comments-title,
+h3#reply-title,
+#access .menu,
+#access div.menu ul,
+#cancel-comment-reply-link,
+.form-allowed-tags,
+#site-info,
+#site-title,
+#wp-calendar,
+.comment-meta,
+.comment-body tr th,
+.comment-body thead th,
+.entry-content label,
+.entry-content tr th,
+.entry-content thead th,
+.entry-meta,
+.entry-title,
+.entry-utility,
+#respond label,
+.navigation,
+.page-title,
+.pingback p,
+.reply,
+.widget-title,
+.wp-caption-text,
+input[type=submit] {
+  font-family: sans-serif;
+  font: Verdana, Arial, Helvetica, sans-serif;
+}
+pre {
+    font-family: "Courier 10 Pitch", Courier, monospace;
+}
+code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+
+#wrapper, #colophon {
+  width: 95%;
+}
+
+#main, #access {
+  width: 100%;
+}
+
+#content {
+  font-size: 12px;
+  line-height: 1.3em;
+}
+
+#content h1,
+#content h2.entry-title {
+	font-size: 1.9em;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-align: left;
+	margin: 0 0 18px 0px;
+	padding: 0 0 4px 0;
+	display: block !important;
+	border-bottom-style: dotted;
+        border-bottom-color: #999;
+        border-bottom-width: 1px;
+}
+#content h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 20px 0 10px 0px;
+	color: #3a657c;
+	text-decoration: none;
+	margin: 0 0 0 0;
+}
+
+#content h3 a, h3 a:link, h3 a:hover, h3 a:visited, h3 a:active {
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #4e87a6 !important;
+	padding: 20px 0 10px 0px;
+	margin: 0 0 0 0;
+}
+
+#content a[id], a[name] {
+	text-decoration: none !important;
+}
+
+#content h4 {
+   font-size: 1.1em;
+	font-weight: bold;
+	color: #3a657c;
+	text-decoration: none;
+	padding: 30px 0 20px 0px;
+	margin: 0 0 0 0;
+}
+
+h4 a {
+   font-size: 1.1em;
+	font-weight: bold;
+	color: #3a657c;
+	text-decoration: none;
+	padding: 30px 0 20px 0px;
+	margin: 0 0 0 0;
+}
+
+
+a:link, a:visited {
+	color: #4e87a6;
+	text-decoration: underline;
+}
+
+a:hover {
+  color: #000;
+}
+
